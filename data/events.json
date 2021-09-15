@@ -2974,7 +2974,7 @@
     "event": "悟道。",
     "effect": {
       "INT": 2,
-      "STR": 1
+      "STR": 2
     },
     "include": "(EVT?[10365])&(INT>100)"
   },
@@ -10754,7 +10754,7 @@
     },
     "include": "TLT?[1048]",
     "exclude": "EVT?[20332]",
-    "branch": ["STR<88:10000"]
+    "branch": ["STR<80:10000"]
   },
   "20333": {
     "id": 20333,
@@ -11690,7 +11690,8 @@
     "id": 40025,
     "event": "悟道。",
     "effect": {
-      "INT": 30
+      "INT": 30,
+      "STR": 2
     },
     "include": "EVT?[40023]",
     "exclude": "EVT?[40039]"
