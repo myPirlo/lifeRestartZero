@@ -65,7 +65,7 @@ class App {
             <button id="specialthanks">特别感谢</button>
             <button id="themeToggleBtn">黑</button>
             <div id="title">
-                人生重开模拟器<br>
+                人生重开模拟器 Zero<br>
                 <div style="font-size:1.5rem; font-weight:normal;">这垃圾人生一秒也不想呆了</div>
             </div>
             <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>立即重开</button>
@@ -197,7 +197,7 @@ class App {
                 <div>调整初始属性</div>
                 <div id="total" style="font-size:1rem; font-weight:normal;">可用属性点：0</div>
             </div>
-            <ul id="propertyAllocation" class="propinitial"></ul>
+            <ul id="propertyAllocation" style="height:316px" class="propinitial"></ul>
             <ul class="selectlist" id="talentSelectedView"></ul>
             <div class="btn-area">
                 <button id="random" class="mainbtn">随机分配</button>
